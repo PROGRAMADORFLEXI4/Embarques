@@ -1,0 +1,26 @@
+-----------------------------------------------------------------------
+----Inicio Guardando datos cartaPorte, Factura Venta: 00000000000000176256---
+---------------20230202 12:38:57-----------------
+-----------------------------------------------------------------------
+
+Descripcion de campos: EXEC [SP_insertaFacturaTranslado] @parametro AS VARCHAR(20), @recnoZZO AS INT, @factura AS VARCHAR(20), @tipEntrega AS INT, @recDestino AS INT, @recVehiculo AS INT, @codChofer AS VARCHAR(15), @codAuxiliar AS VARCHAR(25),@fechSalida AS VARCHAR(30),@fechLlegada AS VARCHAR(30)
+
+Datos: EXEC [SP_insertaFacturaTranslado] 'NO',123912, '00000000000000176256', 1,9,6,'9013','9017','02/02/23 12:48:00','02/02/23 22:48:00';
+
+Resultado: CORRECTO|-|00000000000000005238
+----------------------------------------------------------
+--------------Fin Guardando datos cartaPorte--------------
+----------------------------------------------------------
+-----------------------------------------------------------------------
+----Inicio Guardando datos cartaPorte, Factura Venta: 00000000000000176256---
+---------------20230203 09:24:23-----------------
+-----------------------------------------------------------------------
+
+Descripcion de campos: EXEC [SP_insertaFacturaTranslado] @parametro AS VARCHAR(20), @recnoZZO AS INT, @factura AS VARCHAR(20), @tipEntrega AS INT, @recDestino AS INT, @recVehiculo AS INT, @codChofer AS VARCHAR(15), @codAuxiliar AS VARCHAR(25),@fechSalida AS VARCHAR(30),@fechLlegada AS VARCHAR(30)
+
+Datos: EXEC [SP_insertaFacturaTranslado] 'NO',123912, '00000000000000176256', 1,9,5,'8811','8845','03/02/23 09:34:00','03/02/23 19:34:00';
+
+Resultado: CORRECTO|-|00000000000000005249
+----------------------------------------------------------
+--------------Fin Guardando datos cartaPorte--------------
+----------------------------------------------------------

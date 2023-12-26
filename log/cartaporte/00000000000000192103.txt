@@ -1,0 +1,13 @@
+-----------------------------------------------------------------------
+----Inicio Guardando datos cartaPorte, Factura Venta: 00000000000000192103---
+---------------20231220 08:49:42-----------------
+-----------------------------------------------------------------------
+
+Descripcion de campos: EXEC [SP_insertaFacturaTranslado] @parametro AS VARCHAR(20), @recnoZZO AS INT, @factura AS VARCHAR(20), @tipEntrega AS INT, @recDestino AS INT, @recVehiculo AS INT, @codChofer AS VARCHAR(15), @codAuxiliar AS VARCHAR(25),@fechSalida AS VARCHAR(30),@fechLlegada AS VARCHAR(30)
+
+Datos: EXEC [SP_insertaFacturaTranslado] 'NO',139872, '00000000000000192103', 0,1156,2,'9446','9446','20/12/23 08:58:00','20/12/23 18:58:00';
+
+Resultado: CORRECTO|-|00000000000000007838
+----------------------------------------------------------
+--------------Fin Guardando datos cartaPorte--------------
+----------------------------------------------------------

@@ -1,0 +1,44 @@
+#detP{position:fixed; top:0px; border-radius:20px; margin:0 5px 0 5px; background-color:rgba(100,145,215,.9); width:1014px;	height:700px; z-index:2; display:none;}
+#btnCerrar{position:absolute; right:0; top:1px; border-radius:0 10px 0 0; cursor:pointer;}
+caption{font-weight:bold; padding:0 0 5px 0;}
+#hDet{background-color:rgba(192,192,192, .8); border-radius:20px 20px 0 0; text-align:center; text-shadow:0px 0px 30px rgba(0,0,0,.8);}
+@font-face{font-family:fuente;	src:url("segoeuil.eot"); src:url("segoeuil.ttf");}
+#contenedor{width:1024px; height:900px; margin:0 auto; border-radius:20px; box-shadow:0px 0px 20px rgba(0,0,0,0.8);}
+#fondoObsc{width:100%; height:1080px; overflow:hidden; position:absolute; background-color:rgba(0,0,0,.6); right:0; top:0; z-index:1; display:none;}
+header{margin-top:5px; padding-top:1px; padding-left:10px;}
+#cal{text-align:center;	display:block;}
+#resPed{margin-top:15px;}
+#statusP{display:block;	text-align:center; font-weight:bold;}
+.tDatos a:hover{background-color:rgba(0,145,215,.8); transition:all 0.3s linear; padding:2px; border-radius:8px;}
+.tDatos{position:relative; left:1%; box-shadow:0px 0px 20px rgba(0,0,0,0.8); border-radius:10px; border-collapse:collapse; width:97%;}
+.tInfo{position:relative;width:100%; border-collapse:collapse; border-radius:10px;}
+thead.fixedHeader tr{position: relative; display:block;}
+thead.fixedHeader th{width: 125px;}
+thead.fixedHeader th.thDesc{width: 350px;}
+thead.fixedHeader th.thDesc1{width: 490px;}
+tbody.scrollContent{display: block; height: 540px; overflow: auto; width: 100%}
+tbody.scrollContent td{border-bottom: 1px solid #DDD;}
+tbody.scrollContent td {width: 125px;}
+tbody.scrollContent td.tdDesc{width: 350px;}
+tbody.scrollContent td.tdDesc1{width: 490px;}
+h1{text-shadow:0px 0px 30px rgba(0,0,0,.8); }
+#detalle{margin-top:20px; padding:5px 0 0 0; height:490px; border-radius:20px; width:100%; float:left;}
+th{background: -moz-linear-gradient(top, rgba(117,154,185,.7) 60%, rgba(0,145,215,.5) 20%);	background: -webkit-linear-gradient(top, rgba(117,154,185,.7) 60%, rgba(0,145,215,.5) 20%);	background: -o-linear-gradient(top, rgba(117,154,185,.7) 60%, rgba(0,145,215,.5) 20%); background: -ms-linear-gradient(top, rgba(117,154,185,.7) 60%, rgba(0,145,215,.5) 20%); background: linear-gradient(top, rgba(117,154,185,.7) 60%, rgba(0,145,215,.5) 20%);	border-bottom:groove;}
+.tdD{text-align:right;}
+#tdDS{text-align:right;	font-weight:bold;}
+a{cursor:pointer;}
+.styleA{background:rgba(0,145,215,.8); border-radius:8px;}
+label{cursor:pointer;}
+#tabla{box-shadow:0px 0px 20px rgba(0,0,0,0.8);	border-radius:10px;}
+body{font-family:fuente; color:#FFF; /*height:960px;*/ background: -moz-linear-gradient(top, rgba(0,179,179,1) 30%, rgba(255,191,106,.5) 100%);	background: -webkit-linear-gradient(top, rgba(0,179,179,1) 20%, rgba(255,191,106,.5) 100%);	background: -o-linear-gradient(top, rgba(0,179,179,1) 20%, rgba(255,191,106,.5) 100%); background: -ms-linear-gradient(top, rgba(0,179,179,1) 20%, rgba(255,191,106,.5) 100%); background: linear-gradient(top, rgba(0,179,179,1) 20%, rgba(255,191,106,.5) 100%);}
+#pedsGral{width:20%; text-align:center; font-weight:bold;}
+#mql{text-align:center; font-weight:bold; position:fixed; top:145px; left:37%;}
+.resumen{height:115px; position:relative; float:left; width:18%; font-size:16px; border-width:thin; border:1px solid; -webkit-border-radius:0 0 10px 10px;-moz-border-radius:0 0 15px 15px;border-radius:0 0 15px 15px; padding:0px 0px 0px 5px; margin-left:7px; margin-top:10px;}
+.argolla{position:relative; background:url(images/argolla.png) repeat-x; top:-1px; height:40px;}
+span{display:block;}
+span.titulo{text-align:left;}
+span.valor{text-align:right; margin-right:10px;}
+span.valor1{text-align:right; margin-right:10px;}
+.styleR{background:rgba(0,145,215,.8); border-radius:8px;}
+span.valor:hover{cursor:pointer; background-color:rgba(0,145,215,.8); transition:all 0.3s linear; border-radius:8px;}
+tr.fRow:hover{cursor:pointer; background-color:rgba(0,145,215,.8); transition:all 0.3s linear; border-radius:8px;}

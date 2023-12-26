@@ -1,0 +1,631 @@
+
+
+/* === fontawesome === */
+@import url('font-awesome.css');
+
+
+@font-face{
+	font-family: fuente;
+	/*src:url('../fonts/MyriadPro-Regular.ttf'), url('../fonts/MyriadPro-Regular.eot');*/
+	src:url('../fonts/myriad-set-pro_thin.ttf'), url('../fonts/myriad-set-pro_thin.eot');
+}
+
+body, html
+{
+	margin:0px;
+	padding:0px;
+	font-family:fuente;
+	background:#f9f9f9;
+}
+
+span
+{
+	color:black;/*#68A4C4;*/
+}
+
+h2, h4
+{
+	margin:0px;
+	padding:0px;
+	font-size:17px;
+	
+}
+
+h2
+{
+	font-size:25px;
+	margin:0px;
+	padding:0px;
+	font-family:fuente; 
+	color:black; 
+	font-weight:700;
+	text-rendering:auto;
+	line-height:25px;
+}
+
+img 
+{
+    border: none;
+}
+
+.encabezado
+{
+	left:0px;
+	top:0px;
+	width:100%;
+	height:75px;
+	margin:0px;
+	padding:0px;
+	/*background:#f9f9f9;*/
+	background:#68A4C4;
+	text-align:center;
+	position:fixed;
+	z-index:1;
+}
+
+.encabezado2
+{
+	width:1000px;
+	height:75px;
+	margin:0px;
+	padding:0px;
+	/*background:#f9f9f9;*/
+	background:#68A4C4;
+	text-align:left;
+}
+
+.menus
+{
+	left:0px;
+	top:75px;
+	width:100%;
+	height:30px;
+	margin:0px;
+	padding:0px;
+	background:#196c96;
+	overflow:hidden;
+	position:fixed;
+	z-index:1;
+}
+
+.menus2
+{
+	width:1000px;
+	height:30px;
+	margin:0px;
+	padding:0px;
+	background:#196c96;
+	text-align:left;
+}
+
+.btnmenu
+{
+	position:relative;
+	float:left;
+	width:136px;
+	height:22px;
+	margin:0px;
+	padding:0px;
+	background:#196c96;
+	text-align:center;
+	font-size:15px;
+	color:white;
+	font-family:fuente;
+	border:solid 1px white;
+	border-radius:5px;
+	margin-top:4px;
+	margin-left:3px;
+	margin-right:3px;
+}
+
+.btnmenu:hover
+{
+	background:#68A4C4;
+	cursor:pointer;
+	border-radius:5px;
+	color:black;
+	/*font-weight:700;*/
+}
+
+.btnmenuhide
+{
+	position:relative;
+	float:left;
+	width:136px;
+	height:22px;
+	margin:0px;
+	padding:0px;
+	background:#196c96;
+	text-align:center;
+	font-size:15px;
+	color:white;
+	font-family:fuente;
+	border:solid 1px #196c96;
+	border-radius:5px;
+	margin-top:4px;
+	margin-left:3px;
+	margin-right:3px;
+}
+
+.filtros
+{
+	left:0px;
+	top:105px;
+	width:100%;
+	height:30px;
+	margin:0px;
+	padding:0px;
+	background:#196c96;
+	text-align:center;
+	color:white;
+	display:none;
+	position:fixed;
+	z-index:1;
+	font-family:fuente;
+	/*border:solid 1px red;*/
+}
+
+.filtros2
+{
+	width:1000px;
+	height:30px;
+	/*border:solid 1px red;*/
+}
+
+.contenido
+{
+	position:relative; 
+	top:105px;
+	width:100%;
+	height:auto;/*1775px;*/
+	margin:0px;
+	padding:0px;
+	background:#f9f9f9;
+	/*border:solid 1px orange;*/
+}
+
+.piepagina
+{
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	width:100%;
+	height:40px;
+	margin:0px;
+	/*margin-top:50px;*/
+	padding:0px;
+	background:#68A4C4;
+	color:white;
+	text-align:center;
+}
+
+.piepagina span
+{
+	color:white;
+	font-size:12px;
+}
+
+.chatw4u
+{
+	background:#f9f9f9;
+	position:fixed;
+	left:0px;
+	bottom:40px;
+	width:100%;
+	height:100px;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	z-index:2;
+}
+
+.chatw4u2
+{
+	width:1000px;
+	height:80px;
+	margin:0px;
+	padding:0px;
+	text-align:left;
+	/*border:solid 1px red;*/
+}
+
+.usermenu
+{
+	position:relative;
+	float:right;
+	top:10px;
+	right:5px;
+	height:50px;
+	cursor:pointer;
+}
+
+.usermenu:hover
+{
+	cursor:pointer;
+}
+
+.username
+{
+	position:relative;
+	float:right;
+	top:14px;
+	height:50px;
+	right:15px;
+	font-size:14px;
+}
+
+.userPos
+{
+	position:relative;
+	top:10px; 
+	right:0px;
+	float:right;
+	text-align:right;
+	width:250px;
+	height:75px;
+}
+
+.vh /*Video Help*/
+{
+	position:relative;
+	top:10px; 
+	right:0px;
+	float:right;
+	text-align:right;
+	width:25px;
+	height:25px;
+	background-image:url('../images/help.png');
+	cursor:pointer;
+}
+
+.datosusuario {
+	font-family:fuente;
+	display: none;
+	position: fixed;
+	top: 55px;
+	width: 320px;
+	height: 160px;
+	margin:0px;
+	padding:0px;
+	background-color: #f9f9f9;
+	overflow: auto;
+	border-radius: 10px 0px 10px 10px; 
+	-moz-border-radius: 10px 0px 10px 10px; 
+	-webkit-border-radius: 10px 0px 10px 10px;
+	border:solid 1px #68A4C4;/*#196c96;*/
+	font-size:12px;
+	z-index:2;
+}
+
+/* ===================================================
+ESTILO PARA LAS VENTANAS EMERGENTES
+====================================================*/
+.black_overlay{
+	display: none;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:2;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}
+
+.white_content {
+	display: none;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+	background-color: white;
+	z-index:1002;
+	overflow: auto;
+}
+
+.cuadro-gris  
+{
+	font-family:fuente;
+	background: white/*#f8f8f8*/;
+	padding: 20px 20px 30px;
+	width:20%;
+	margin-top:50px;
+	/*min-width:180px;*/
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	color:#333;
+}
+
+.cuadro-gris  h4,.cuadro-gris  i {
+	margin-bottom: 20px;
+}
+
+.cuadro-botones {
+	font-family:fuente;
+	padding: 20px 20px 30px;
+	text-align: center;
+	background:#68A4C4;
+	width:20%;
+	min-width:180px;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	color:#333;
+}
+
+.cuadro-botones a {
+	color: #fff;
+	font-weight: 700;
+}
+
+.cuadro-botones a:hover {
+	color: #eee;
+	text-decoration: none;
+}
+
+.tabla
+{
+	font-family: fuente;
+	position:relative; 
+	float:left;
+	width:100%;
+	height:auto;
+	margin:0px;
+	padding:0px;
+	overflow:auto;
+	/*border:solid 1px red;*/
+}
+
+.estilotabla {
+  width: 100%;
+  font-family: fuente;
+  font-size: 12px;
+  color: #FFFFFF;
+  /*font-weight:300;*/
+  border: solid #ccc 1px;
+  border-collapse:collapse;
+  border-spacing: 0;
+  overflow:auto;
+  white-space: normal;
+}
+
+.estilotabla > tbody > tr > td, .estilotabla > thead > tr > th {
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  padding: 5px;
+  font-size:12px;
+  text-align: left;
+  color:#000000;
+  border:none;
+}
+
+.estilotabla > thead > tr > th 
+{
+	color:#FFFFFF;
+	font-weight:100;
+}
+ 
+.estilotabla > thead > tr > th, .estilotabla > thead > tr > td {
+  background-color: #68A4C4;/*#196c96;*/
+  color:black;
+  border:none;
+  font-size:13px;
+  font-weight:600;
+}
+
+.estilotabla {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.estilotabla > thead > tr > th 
+{
+  -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+  box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+  border-top: none;
+}
+
+.estilotabla > tbody > tr:hover 
+{
+  background-color: #fbf8e9;
+}
+
+.estilotabla > tbody > tr
+{
+	border-top: solid #D8D8D8 1px;
+	border-bottom: solid #D8D8D8 1px;
+}
+
+a:link {
+    color: #000000;
+}
+
+/* visited link */
+a:visited {
+    color: #1E00E4;
+} 
+
+.estilotabla tr.even{
+    background:#BFBFBF;/*#2290c9*/
+}
+
+.estilotabla tr.odd{
+    background:#DDDDDD;/*#3995B1*/
+}
+
+.cuadroOPT
+{
+	padding:0px;
+	/*min-width:180px;*/
+	margin:5% 2.5% 0px 3.5%; 
+	width:19%; 
+	height:180px; 
+	float:left;
+	color:#333;
+}
+
+.enctablap
+{
+	top:105px;
+	height:50px;
+	width:100%;
+	position:fixed;
+	z-index:1;
+	background:#68A4C4;
+	/*border:solid 1px red;*/
+}
+
+.tablap
+{
+	position:relative;
+	width:100%;
+	top:-17px;
+	/*border:solid 1px red;*/
+}
+
+.white_contentCat {
+	display: none;
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	width: 40%;
+	height: 40%;
+	background-color: white;
+	z-index:1002;
+	overflow:hidden;
+}
+
+.emergente
+{
+	width:100%;
+	background-color:#f8f8f8;
+	height:80%;
+	overflow:auto;
+	text-align:center;
+}
+
+.emergenteBotones a:link {
+	text-decoration: none;
+}
+
+.emergenteBotones
+{
+	position:relative;
+	width:100%;
+	background-color:#68A4C4;
+	height:20%;
+	text-align: center;
+	overflow:auto;
+}
+
+.emergenteBotones a 
+{
+	color: #fff;
+	font-weight: 700;
+}
+
+.emergenteBotones a:hover 
+{
+	color: #eee;
+	text-decoration: none;
+}
+
+label.alinea
+{
+    float: left;
+    margin: 0 2% 0 0;
+}
+
+.white_contentTem {
+	display: none;
+	position: absolute;
+	top: 25%;
+	left: 10%;
+	width: 80%;
+	height: 50%;
+	background-color: white;
+	z-index:1002;
+	overflow:auto;
+}
+
+.enctabla
+{
+	position:fixed;
+	z-index:1;
+	width:100%;
+	height:30px;
+	margin:0px;
+	padding:0px;
+	background:#68A4C4;
+	top:105px;
+}
+
+.black_overlayw4u
+{
+	display:none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}
+
+.white_contentw4u
+{
+	display: none;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+	background-color: white;
+	z-index:1002;
+	overflow: auto;
+}
+
+.filtroshide 
+{
+	display:none;
+	position: fixed;
+	top: 10px;
+	left: 25%;
+	width: 50%;
+	height: 400px;
+	z-index:3;
+	overflow: auto;
+	background:#f9f9f9;
+	border-radius:10px;
+	border:solid 2px #D8D8D8;
+}
+
+.btnchat
+{
+	position:relative;
+	float:left;
+	height:30px;
+	width:200px;
+	background:#68A4C4;
+	color:black;
+	border:solid 1px #D8D8D8;
+	border-radius:5px;
+	text-align:center;
+	padding:5px;
+	cursor:pointer;
+}

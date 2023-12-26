@@ -1,0 +1,18 @@
+body {
+	margin-bottom: 0px;
+	font-family: Verdana;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #525252;
+}
+
+td{
+	font-family: Verdana;
+	font-size: 6px;
+	color: #000;
+	font-weight: normal;
+}
